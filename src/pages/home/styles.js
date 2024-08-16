@@ -57,21 +57,7 @@ outline: none;
 width: 100%;
 `;
 
-export const Button = styled.button`
-border: none;
-border-radius: 30px;
-background: linear-gradient(to right, #fe7e5d, #7f3841);
-font-size: 16px;
-padding: 12px 32px;
-width: fit-content;
-cursor: pointer;
-&:hover {
-    opacity: .8;
-}
-&:active {
-    opacity: .5;
-}
-`;
+
 
 export const InputLabel = styled.label`
 color: #fff;
